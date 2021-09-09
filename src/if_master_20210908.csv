@@ -1,0 +1,6 @@
+if_code^if_id^source_system^source_path^target_system^target_path^if_type^target_path_type^array_yn^use_yn^if_grade^bypass_yn
+CRM-IF-021^OBO_HERO_ONL_0003^OBO^/OnFFMemberLogAdd^HERO^fnf.prc_wabe_member_login_action_info^REST to DB^Heroku Call Procedure^N^Y^Low^N
+ERP-IF-013^MERP_O3PL_BAT_0007^MERP^EAI.IF_3PL_RT^O3PL^/api/FnFEAI/PushRTIntendedInventory^DB to REST^^Y^Y^Low^N
+CRM-IF-025^SMS_HERO_ONL_0005^SMS^/SmsCustMemberDetail^HERO^fnf.fn_sms_cust_member_detail^REST to DB^Heroku Call Function ^N^Y^Low^N
+CRM-IF-221^CRMA_HERO_ONL_0002^CRMA^/crma/CremaOfflineOrderInfo^HERO^fnf.fn_crema_offline_order_info^REST to DB^Heroku Call Function ^Y^Y^Low^N
+CRM-IF-051^HERO_OBO_ONL_0003^HERO^fnf.v_wakeup_member_info, /SendWakeMemberInfoToOnline^OBO^/iif/member/getReleaseDrmncyMemberInfoList^REST to REST^Heroku JDBC QUERY , REST^Y^Y^Low^N
